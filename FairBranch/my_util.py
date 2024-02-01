@@ -519,7 +519,9 @@ def branches(net=None,group=None,out=1,parents={},branches=None,premod=False):
             return shared_layers,branches,task_layers,new_parents
 
 from copy import deepcopy        
-def fair_grads(model,outputs,labels,xc,grouped,dv):
+def fair_grads(model,outputs,labels,xc,grouped,dv,lambdas=[]):
+    if len(lambdas)==0:
+        lambdas=[1.0 for i in range(len(labels))]
     def vector_rejection(g1,g2):
         v1=deepcopy(g1)
         v2=deepcopy(g2)
@@ -527,7 +529,7 @@ def fair_grads(model,outputs,labels,xc,grouped,dv):
     if isinstance(model,nn.DataParallel):
             model=model.module
     for t in range(len(labels)):
-        loss_f=fair_loss(outputs[t], labels[t].to(dv),xc.to(dv))
+        loss_f=lambdas[t]*fair_loss(outputs[t], labels[t].to(dv),xc.to(dv))
         loss_f.backward(retain_graph=True)
     if len(grouped)>0:
         for i in grouped:
@@ -557,7 +559,6 @@ def fair_grads(model,outputs,labels,xc,grouped,dv):
                             model.tasks_out['ch'+str(grouped[i][gp][1])].bias.grad=deepcopy(vector_rejection(g2b,g1b))
 
     return model
-
 
 
 from copy import deepcopy
