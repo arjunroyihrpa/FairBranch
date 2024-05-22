@@ -8,3 +8,8 @@ Analogously to negative transfer for accuracy, task-specific fairness considerat
 To address both negative- and bias-transfer in MTL, we propose a novel method called FairBranch, which branches the MTL model by assessing the similarity of learned parameters, thereby grouping related tasks to alleviate negative transfer.  
 Moreover, it incorporates fairness loss gradient conflict correction between adjoining task-group branches to address bias transfer within these task groups. 
 Our experiments on tabular and visual MTL problems show that FairBranch outperforms state-of-the-art  MTLs on both fairness and accuracy. 
+
+
+## Important Links
+- [Paper](./IJCNN_FairBranch.pdf)
+- [Code Repository](https://github.com/arjunroyihrpa/FairBranch/tree/main/FairBranch)
