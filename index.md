@@ -11,5 +11,31 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
 
 
 ## Important Links
-- [Paper](./IJCNN_FairBranch.pdf)
-- [Code Repository](https://github.com/arjunroyihrpa/FairBranch/tree/main/FairBranch)
+<div style="margin: 10px 0;">
+  <a href="./IJCNN_FairBranch.pdf" class="button">Paper</a>
+  <a href="[https://github.com/username/code-repo](https://github.com/arjunroyihrpa/FairBranch/tree/main/FairBranch)" class="button">Code Repository</a>
+</div>
+<style>
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px #999;
+}
+
+.button:hover {background-color: #0056b3}
+
+.button:active {
+  background-color: #0056b3;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+</style>
