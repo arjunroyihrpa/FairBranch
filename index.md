@@ -1,7 +1,7 @@
 # FairBranch: Mitigating Bias Transfer in Fair Multi-task Learning
 
 ## Abstract
-The generalisation capacity of  Multi-Task Learning (\verb|MTL|) suffers when 
+The generalisation capacity of  Multi-Task Learning (MTL) suffers when 
 unrelated tasks negatively impact each other by updating shared parameters with conflicting gradients. This is known as negative transfer and leads to a drop in MTL accuracy compared to single-task learning (STL). 
 Lately, there has been a growing focus on the fairness of MTL models, requiring the optimization of both accuracy and fairness for individual tasks. 
 Analogously to negative transfer for accuracy, task-specific fairness considerations might adversely affect the fairness of other tasks when there is a conflict of fairness loss gradients between the jointly learned tasks - we refer to this as bias transfer. 
@@ -13,7 +13,7 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
 ## Important Links
 <div style="margin: 10px 0;">
   <a href="./IJCNN_FairBranch.pdf" class="button">Paper</a>
-  <a href="https://github.com/arjunroyihrpa/FairBranch/tree/main/FairBranch" class="button">Code Repository</a>
+  <a href="[https://github.com/arjunroyihrpa/FairBranch/tree/main/FairBranch](https://github.com/arjunroyihrpa/FairBranch/tree/main/FairBranch)" class="button">Code Repository</a>
 </div>
 <style>
 .button {
