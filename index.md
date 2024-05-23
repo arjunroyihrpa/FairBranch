@@ -29,10 +29,8 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
   text-align: justify; /* Justify the text */
   margin: 10px 0; /* Add some margin above and below */
   padding: 10px; /* Add padding for better spacing */
-  color: #fff;
   text-align: center;
   border-left: 1px solid #007bff; /* Optional: Add a left border for styling */
-  background-color: #007bff; /* Optional: Add a background color */
   border-radius: 5px; /* Similar to the button class */
   box-shadow: 0 4px #999; /* Similar to the button class */
 }
