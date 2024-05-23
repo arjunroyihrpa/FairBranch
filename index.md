@@ -1,7 +1,7 @@
 # FairBranch: Mitigating Bias Transfer in Fair Multi-task Learning
 
 ## Abstract
-<div class="abstract">
+<div class="abstract-button-style">
 The generalisation capacity of  Multi-Task Learning (MTL) suffers when 
 unrelated tasks negatively impact each other by updating shared parameters with conflicting gradients. This is known as negative transfer and leads to a drop in MTL accuracy compared to single-task learning (STL). 
 Lately, there has been a growing focus on the fairness of MTL models, requiring the optimization of both accuracy and fairness for individual tasks. 
@@ -18,19 +18,23 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
 </div>
 <style>
   body, .container {
-  max-width: 1200px; /* Adjust the max-width as needed */
+  max-width: 1500px; /* Adjust the max-width as needed */
   margin: 0 auto; /* Center the body with auto margins */
   padding: 20px; /* Optional padding for better appearance */
   width: 100% !important; /* Ensure full width */
 }
-.abstract {
+.abstract-button-style {
   font-size: 1.2em; /* Adjust font size */
   line-height: 1.6; /* Adjust line height for better readability */
   text-align: justify; /* Justify the text */
-  margin: 20px 0; /* Add some margin above and below */
+  margin: 10px 0; /* Add some margin above and below */
   padding: 10px; /* Add padding for better spacing */
-  border-left: 4px solid #007bff; /* Optional: Add a left border for styling */
-  background-color: #f9f9f9; /* Optional: Add a background color */
+  color: #fff;
+  text-align: center;
+  border-left: 1px solid #007bff; /* Optional: Add a left border for styling */
+  background-color: #007bff; /* Optional: Add a background color */
+  border-radius: 5px; /* Similar to the button class */
+  box-shadow: 0 4px #999; /* Similar to the button class */
 }
 .button {
   display: inline-block;
