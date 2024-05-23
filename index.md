@@ -16,6 +16,11 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
   <a href="https://github.com/arjunroyihrpa/FairBranch" class="button">Code Repository</a>
 </div>
 <style>
+  body {
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the body with auto margins */
+  padding: 20px; /* Optional padding for better appearance */
+}
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -37,5 +42,14 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
   background-color: #0056b3;
   box-shadow: 0 2px #666;
   transform: translateY(2px);
+}
+figure {
+  margin: 1em 0;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #555;
 }
 </style>
