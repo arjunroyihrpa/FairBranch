@@ -13,7 +13,7 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
 ## Important Links
 <div style="margin: 10px 0;">
   <a href="./IJCNN_FairBranch.pdf" class="button">Paper</a>
-  <a href="./FairBranch" class="button">Code Repository</a>
+  <a href="https://github.com/arjunroyihrpa/FairBranch" class="button">Code Repository</a>
 </div>
 <style>
 .button {
