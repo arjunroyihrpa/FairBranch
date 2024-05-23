@@ -1,7 +1,7 @@
 # FairBranch: Mitigating Bias Transfer in Fair Multi-task Learning
 
 ## Abstract
-<div class="abstract-button-style">
+<div class="button">
 The generalisation capacity of  Multi-Task Learning (MTL) suffers when 
 unrelated tasks negatively impact each other by updating shared parameters with conflicting gradients. This is known as negative transfer and leads to a drop in MTL accuracy compared to single-task learning (STL). 
 Lately, there has been a growing focus on the fairness of MTL models, requiring the optimization of both accuracy and fairness for individual tasks. 
