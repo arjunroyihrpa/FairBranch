@@ -1,6 +1,7 @@
 # FairBranch: Mitigating Bias Transfer in Fair Multi-task Learning
 
 ## Abstract
+<div class="abstract">
 The generalisation capacity of  Multi-Task Learning (MTL) suffers when 
 unrelated tasks negatively impact each other by updating shared parameters with conflicting gradients. This is known as negative transfer and leads to a drop in MTL accuracy compared to single-task learning (STL). 
 Lately, there has been a growing focus on the fairness of MTL models, requiring the optimization of both accuracy and fairness for individual tasks. 
@@ -8,7 +9,7 @@ Analogously to negative transfer for accuracy, task-specific fairness considerat
 To address both negative- and bias-transfer in MTL, we propose a novel method called FairBranch, which branches the MTL model by assessing the similarity of learned parameters, thereby grouping related tasks to alleviate negative transfer.  
 Moreover, it incorporates fairness loss gradient conflict correction between adjoining task-group branches to address bias transfer within these task groups. 
 Our experiments on tabular and visual MTL problems show that FairBranch outperforms state-of-the-art  MTLs on both fairness and accuracy. 
-
+</div>
 
 ## Important Links
 <div style="margin: 10px 0;">
@@ -16,10 +17,20 @@ Our experiments on tabular and visual MTL problems show that FairBranch outperfo
   <a href="https://github.com/arjunroyihrpa/FairBranch" class="button">Code Repository</a>
 </div>
 <style>
-  body {
+  body, .container {
   max-width: 1200px; /* Adjust the max-width as needed */
   margin: 0 auto; /* Center the body with auto margins */
   padding: 20px; /* Optional padding for better appearance */
+  width: 100% !important; /* Ensure full width */
+}
+.abstract {
+  font-size: 1.2em; /* Adjust font size */
+  line-height: 1.6; /* Adjust line height for better readability */
+  text-align: justify; /* Justify the text */
+  margin: 20px 0; /* Add some margin above and below */
+  padding: 10px; /* Add padding for better spacing */
+  border-left: 4px solid #007bff; /* Optional: Add a left border for styling */
+  background-color: #f9f9f9; /* Optional: Add a background color */
 }
 .button {
   display: inline-block;
