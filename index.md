@@ -11,7 +11,7 @@ The generalisation capacity of  Multi-Task Learning (MTL) suffers when unrelated
 <style> 
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
