@@ -20,7 +20,7 @@ The generalisation capacity of  Multi-Task Learning (MTL) suffers when unrelated
   color: #fff;
   background-color: #007bff;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0 4px #999;
 }
 .button:hover {background-color: #0056b3}
