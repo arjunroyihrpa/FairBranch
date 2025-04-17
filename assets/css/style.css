@@ -7,13 +7,13 @@ body {
 }
 
 .main-content {
-  max-width: 1000px !important;
-  width: 90% !important;
-  margin: 0 auto !important;
-  padding: 2rem !important;
-  background-color: #ffffff !important;
-  border-radius: 12px !important;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05) !important;
+  max-width: 500px;
+  width: 75%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
 .button {
