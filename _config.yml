@@ -1,20 +1,4 @@
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
 - jekyll-remote-theme 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-
-include:
-  - assets/css/style.css
 title: [FairBranch]
