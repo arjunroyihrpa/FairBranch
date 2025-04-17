@@ -11,25 +11,4 @@ The generalisation capacity of  Multi-Task Learning (MTL) suffers when unrelated
   <a href="./WCCI-IJCNN_FairBranch_Presentation.pdf" class="button">Slides</a>
   <a href="./WCCI-IJCNN_FairBranch_Arjun_Roy.pptx" class="button">PPT</a>  
 </div>
-<style> 
-.button {
-  display: inline-block;
-  padding: 5px 10px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 0 4px #999;
-}
-.button:hover {background-color: #0056b3}
-.button:active {
-  background-color: #0056b3;
-  box-shadow: 0 2px #666;
-  transform: translateY(2px);
-}
-</style>
+
