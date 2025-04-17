@@ -10,7 +10,7 @@ body {
 
 
 .wrapper, .page-content {
-  max-width: 800px !important;
+  max-width: 500px !important;
   width: 75%;
   margin: 0 auto;
   background-color: #ffffff;
