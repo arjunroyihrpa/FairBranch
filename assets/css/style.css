@@ -9,16 +9,15 @@ body {
 }
 
 
-.wrapper, .page-content {
-  max-width: 500px !important;
+.main-content {
+  max-width: 500px;
   width: 75%;
   margin: 0 auto;
-  background-color: #ffffff;
   padding: 2rem;
+  background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
-
 
 .button {
   display: inline-block;
@@ -35,7 +34,6 @@ body {
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-
 .button:hover {
   background-color: #5a7ca5;
 }
@@ -44,4 +42,9 @@ body {
   background-color: #4f6d92;
   transform: translateY(1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
 }
