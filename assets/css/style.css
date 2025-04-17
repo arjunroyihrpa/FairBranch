@@ -1,3 +1,22 @@
+.page-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+}
+
+.page-header {
+  /* Uncomment to hide theme title if needed */
+  /* display: none !important; */
+}
+
 body {
   background-color: #f0f2f5 !important;
   font-family: "Segoe UI", "Helvetica Neue", sans-serif !important;
@@ -5,9 +24,7 @@ body {
   margin: 0 !important;
   padding: 2rem 0 !important;
 }
-.page-header {
-  display: none;
-}
+
 .wrapper {
   max-width: 800px !important;
   width: 90% !important;
