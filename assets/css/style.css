@@ -5,7 +5,9 @@ body {
   margin: 0 !important;
   padding: 2rem 0 !important;
 }
-
+.page-header {
+  display: none;
+}
 .wrapper {
   max-width: 800px !important;
   width: 90% !important;
