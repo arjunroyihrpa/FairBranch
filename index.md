@@ -9,6 +9,7 @@ The generalisation capacity of  Multi-Task Learning (MTL) suffers when unrelated
   <a href="https://ieeexplore.ieee.org/abstract/document/10651221" class="button">Paper</a>
   <a href="https://github.com/arjunroyihrpa/FairBranch" class="button">Code</a>
   <a href="./WCCI-IJCNN_FairBranch_Presentation.pdf" class="button">Slides</a>
-  <a href="./WCCI-IJCNN_FairBranch_Arjun_Roy.pptx" class="button">PPT</a>  
+  <a href="./WCCI-IJCNN_FairBranch_Arjun_Roy.pptx" class="button">PPT</a> 
+  <a href="https://youtu.be/UK1ke5_AV_g?si=kXk_mAof2cw4W1Od" class="button">Video</a> 
 </div>
 
