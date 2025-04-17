@@ -12,4 +12,7 @@ The generalisation capacity of  Multi-Task Learning (MTL) suffers when unrelated
   <a href="./WCCI-IJCNN_FairBranch_Arjun_Roy.pptx" class="button">PPT</a> 
   <a href="https://youtu.be/UK1ke5_AV_g?si=kXk_mAof2cw4W1Od" class="button">Video</a> 
 </div>
-
+---
+FairBranch is maintained by [arjunroyihrpa](https://github.com/arjunroyihrpa)
+📧 [arjunroyihrpa@gmail.com](mailto:arjunroyihrpa@gmail.com)
+🪩 [www.arjunroy.info](https://www.arjunroy.info)
